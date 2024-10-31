@@ -2,7 +2,7 @@
     "$schema":"http://json-schema.org/schema#",
     "type":"object",
     "properties":{
-      "shiny":{
+      "ollama":{
         "type":"object",
         "properties":{
           "service":{
@@ -79,7 +79,7 @@
                     },
                     "hidden":{
                       "value":false,
-                      "path":"shiny/security/allowlist/enabled"
+                      "path":"ollama/security/allowlist/enabled"
                     }
                   }
                 }
