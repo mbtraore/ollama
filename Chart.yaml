@@ -35,9 +35,9 @@ version: 0.63.0
 appVersion: "0.3.14"
 
 dependencies:
-- name: ollama
-  version: 0.63.0
-  repository: https://otwld.github.io/ollama/ollama-helm
+#- name: ollama
+#  version: 0.63.0
+#  repository: https://otwld.github.io/ollama/ollama-helm
 - name: library-chart
-  version: 1.5.26
+  version: 1.5.30
   repository: https://inseefrlab.github.io/helm-charts-interactive-services
